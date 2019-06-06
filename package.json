@@ -2,7 +2,7 @@
 	"name": "hottir",
 	"displayName": "hottir",
 	"description": "The extension provides refactoring tools for your React codebase",
-	"version": "4.8.0",
+	"version": "0.1.0",
 	"publisher": "yarikhot",
 	"engines": {
 		"vscode": "^1.23.0"
@@ -109,33 +109,4 @@
 		"relative": "^3.0.2",
 		"vscode-cache": "^0.3.0"
 	},
-	"release": {
-		"verifyConditions": [
-			"semantic-release-vsce",
-			"@semantic-release/github"
-		],
-		"prepare": [
-			{
-				"path": "@semantic-release/changelog",
-				"changelogFile": "CHANGELOG.md"
-			},
-			"@semantic-release/git",
-			{
-				"path": "semantic-release-vsce",
-				"packageVsix": "vscode-hottir.vsix"
-			}
-		],
-		"publish": [
-			"semantic-release-vsce",
-			{
-				"path": "@semantic-release/github",
-				"assets": "vscode-hottir.vsix"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/wix/vscode-hottir.git"
-	},
-	"icon": "assets/icon.png"
 }
