@@ -19,11 +19,11 @@ Yeoman is language agnostic. It can generate projects in any language (Web, Java
 
 Here are some common use cases:
 
-Rapidly create a new project/ 
-Create new sections of a project, like a new controller with unit tests/
-Create modules or packages/
-Bootstrapping new services/
-Enforcing standards, best practices and style guides/
-Promote new projects by letting users get started with a sample app/
-Etc, etc/
+Rapidly create a new project\
+Create new sections of a project, like a new controller with unit tests\
+Create modules or packages\
+Bootstrapping new services\
+Enforcing standards, best practices and style guides\
+Promote new projects by letting users get started with a sample app\
+Etc, etc\
 
