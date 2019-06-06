@@ -11,7 +11,9 @@ Installing dependensies
 ## press F5 or click debugging button in vscode
 
 In debug window you must open react project and use this extension
-
+## use package version
+node - 10.15.3
+npm - 6.4.1
 ## what is yeoman
 Yeoman is a generic scaffolding system allowing the creation of any kind of app. It allows for rapidly getting started on new projects and streamlines the maintenance of existing projects.
 
